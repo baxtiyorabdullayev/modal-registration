@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+.clicked {
+  filter: blur(1px);
+}
+
+.sign-in__button {
+  padding: 15px 30px;
+  border-radius: 30px;
+  background-color: #ce3232;
+  border: none;
+  color: white;
+  font-weight: 500;
+  margin-left: 20px;
+  margin-right: 20px;
+  letter-spacing: -1px;
+}
+
+.sign-in__button:hover {
+  cursor: pointer;
+  transition-duration: 0.2s;
+  background-color: #272727;
+}
+
+/* modal section  */
+
+.modal-box {
+  position: fixed;
+  top: -100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 420px;
+  /* height: 500px; */
+  background: linear-gradient(to right, #434343, #000000);
+  transition: 0.9s;
+  z-index: 10000;
+  padding: 15px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  border-radius: 10px;
+}
+
+.modal-box__click {
+  top: 50%;
+}
+
+.close-button b {
+  color: #999999;
+  cursor: pointer;
+  font-size: 1.5rem;
+  float: right;
+  margin: 15px;
+}
+
+.company-name {
+  color: white;
+  font-size: 2rem;
+  margin-top: 40px;
+}
+
+.create-account,
+.sigh-in {
+  color: #979797;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 10px;
+  margin-bottom: 25px;
+  margin-left: 0;
+  margin-right: 0;
+  background: none;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #dddddd;
+}
+
+.active-button {
+  color: white;
+  border-bottom: 1px solid #ce3232;
+}
+
+.create-account:hover,
+.sigh-in:hover {
+  border-bottom: 1px solid #ce3232;
+  color: white;
+}
+
+.create-account__section input,
+.sigh-in__section input {
+  width: 90%;
+  padding: 12px;
+  margin: 10px;
+  background: none;
+  outline: none;
+  border: 1px solid #999999;
+  border-radius: 5px;
+}
+
+.create-account__section input:hover,
+.sigh-in__section input:hover {
+  border: 1px solid white;
+  transition: 0.1s ease;
+}
+
+.create-account__section button,
+.sigh-in__section button {
+  width: 90%;
+  padding: 10px;
+  margin: 15px;
+  color: white;
+  background-color: #ce3232;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.forgot-password {
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  font-weight: 400;
+}
+.sigh-in__section {
+  display: none;
+}

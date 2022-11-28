@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hydro | Landing page</title>
+
+    <!-- css link  -->
+    <link rel="stylesheet" href="./login-style.css">
+
+    <!-- google font link  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- modal window for sign in or join -->
+<div class="modal-box">
+    <div class="close-button"><b class="fa-xmark">x</b></div>
+    <div class="company-name">Hydro Co</div>
+    <div class="buttons">
+        <button class="create-account active-button">Create a account</button>
+        <button class="sigh-in">Sigh In</button>
+    </div>
+    <div class="create-account__section">
+        <form>
+            <input type="text" placeholder="name">
+            <input type="tel" placeholder="tel">
+            <input type="email" placeholder="email">
+            <input type="password" placeholder="password">
+            <button type="submit">Submit button</button>
+
+        </form>
+    </div>
+    <div class="sigh-in__section">
+        <form>
+            <input type="email" placeholder="email">
+            <input type="password" placeholder="password">
+            <button type="submit">Submit button</button>
+            <h2 class="forgot-password">Forgot your password?</h2>
+        </form>
+    </div>
+ </div>
+
+
+<!-- big box -->
+<div class="big-container">
+    <!-- header section  -->
+    <nav class="nav-bar">
+        <button class="sign-in__button">Sign in / Join</button>
+    </nav>
+</div>
+
+
+
+    <script src="./login-main.js"></script>
+</body>
+</html>
