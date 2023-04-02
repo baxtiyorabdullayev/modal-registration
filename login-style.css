@@ -24,7 +24,7 @@
 
 .sign-in__button:hover {
   cursor: pointer;
-  transition-duration: 0.2s;
+  transition-duration: 0.4s;
   background-color: #272727;
 }
 
@@ -36,8 +36,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
   width: 420px;
-  /* height: 500px; */
-  background: linear-gradient(to right, #434343, #000000);
+  background: linear-gradient(to right, #1e1f9c, #292121);
   transition: 0.9s;
   z-index: 10000;
   padding: 15px;
@@ -92,6 +91,7 @@
 
 .create-account__section input,
 .sigh-in__section input {
+  color: white;
   width: 90%;
   padding: 12px;
   margin: 10px;
