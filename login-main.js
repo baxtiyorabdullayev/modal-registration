@@ -1,8 +1,11 @@
 "use strict";
 let body = document.querySelector("body");
 
+let sighInButton = document.createElement("button");
+sighInButton.className = "sign-in__button";
+sighInButton.textContent = "Sign in / Join";
+
 // **************Sign in button
-let sighInButton = document.querySelector(".sign-in__button");
 let modalBox = document.querySelector(".modal-box");
 let bigBox = document.querySelector(".big-container");
 let closeButton = document.querySelector(".fa-xmark");
@@ -39,3 +42,5 @@ function joinOpen() {
   accountButton.classList.remove("active-button");
 }
 joinButton.addEventListener("click", joinOpen);
+
+body.appendChild(sighInButton);
